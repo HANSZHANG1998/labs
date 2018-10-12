@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
     printf("Got a 1\n");
     digitalWrite(2,HIGH);
     digitalWrite(1,LOW);
-    ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/123", "george1", "EECS32222", "Hii George1 1234656");
+    ifttt("http://red.eecs.yorku.ca:8080/trigger/event/with/key/123", "HANS", "EECS2031", "MY NAME IS HANS");
 }
    printf("waitting for event\n");
     if(digitalRead(0) == 0){
